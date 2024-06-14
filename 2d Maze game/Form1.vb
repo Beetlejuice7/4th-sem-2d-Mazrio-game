@@ -2,6 +2,7 @@
     Dim count As Integer = 0
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'PictureBox2.BackColor = Color.Red
+        'hello testing only
     End Sub
 
     Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
