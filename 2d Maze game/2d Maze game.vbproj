@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0DC96739-C40E-44E8-BC83-4E0101444EC7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>_2d_Maze_game.My.MyApplication</StartupObject>
-    <RootNamespace>_2d_Maze_game</RootNamespace>
-    <AssemblyName>2d Maze game</AssemblyName>
+    <StartupObject>mazrioo_game.My.MyApplication</StartupObject>
+    <RootNamespace>mazrioo_game</RootNamespace>
+    <AssemblyName>MaZrioo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>2d Maze game.xml</DocumentationFile>
+    <DocumentationFile>MaZrioo.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>2d Maze game.xml</DocumentationFile>
+    <DocumentationFile>MaZrioo.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -46,6 +46,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MaZrioo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -84,6 +87,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -120,22 +124,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\level 1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\puzzle.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\pngimg.com - mario_PNG85.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\backgroundlvl1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngegg %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\pngegg %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\906d27c5ad3e25a3cbe3461dd7bbc15e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MaZrioo.ico" />
+    <None Include="Resources\background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
